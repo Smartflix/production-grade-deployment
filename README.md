@@ -3,18 +3,18 @@
 clone this repo first and run this command: ./deploy.sh
 
 
-**GIT REPOSITORY URL : https://github.com/Ilashe/production-grade-deployment.git
+**GIT REPOSITORY URL : https://github.com/Smartflix/production-grade-deployment.git
 
 
-**PAT : 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
+**PAT : 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
 
 **BRANCH NAME : main
 
-**SSH USERNAME : ubuntu
+**SSH USERNAME : ec2-user
 
-**SERVER IP ADDRESS : 52.203.61.52
+**SERVER IP ADDRESS : 184.73.77.203
 
-**SSH KEY PATH : C:/Users/HP/Downloads/pem.pem
+**SSH KEY PATH : C:/Users/Owner/Downloads/jeff2KP.pem
 
 **PORT : 8080
 
