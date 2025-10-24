@@ -66,29 +66,25 @@ Path to SSH key file (e.g., /home/ubuntu/my-key.pem)
 
 Application port (e.g., 3000 or 8080)
 
-🖥️ Example Run
-============================================================
   Production Deployment Automation Script
   Version: 1.0.0
-============================================================
 
 [INFO] Starting deployment process...
 [INFO] Log file: deploy_20251023_053126.log
 
-============================================================
   STEP 1: Collecting Deployment Parameters
-============================================================
+  
 Enter Git Repository URL: https://github.com/Smartflix/production-grade-deployment.git
 Enter Personal Access Token (PAT):
 Enter branch name (default: main): main
-Enter SSH username: ec2-user
-Enter server IP address: 184.73.77.203
-Enter SSH key path: /home/ec2-user/jeff2KP.pem
+Enter SSH username: 
+Enter server IP address: 
+Enter SSH key path: /home/ec2-user/keypair.pem
 Enter application port (1-65535): 8080
 
-============================================================
+
   STEP 2: Cloning/Updating Repository
-============================================================
+  
 [SUCCESS] Repository updated successfully
 ...
 [SUCCESS] Application deployed and accessible on port 8080
